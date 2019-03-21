@@ -13,7 +13,7 @@ const UserInput = props => (
     <div
         style={style.input}
     >
-        User input: <input type="text" />
+        User input: <input type="text" value={props.username} />
     </div>
 )
 

@@ -6,7 +6,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <UserInput />
+        <UserInput
+          username="Random username"
+        />
         <UserOutput />
         <UserOutput />
         <UserOutput />
